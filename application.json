@@ -15,11 +15,38 @@
   "collapseInvisibleWidgets": true,
   "color": "#F4FFDE",
   "evaluationVersion": 2,
-  "icon": "arrow-left",
+  "icon": "lock",
   "pages": [
     {
-      "id": "Page1",
-      "isDefault": true
+      "id": "LoginPage",
+      "name": "Login",
+      "isDefault": true,
+      "layouts": [
+        {
+          "id": "login_layout",
+          "type": "CANVAS_LAYOUT"
+        }
+      ]
+    },
+    {
+      "id": "RegisterPage",
+      "name": "Register",
+      "layouts": [
+        {
+          "id": "register_layout", 
+          "type": "CANVAS_LAYOUT"
+        }
+      ]
+    },
+    {
+      "id": "DashboardPage",
+      "name": "Dashboard",
+      "layouts": [
+        {
+          "id": "dashboard_layout",
+          "type": "CANVAS_LAYOUT"
+        }
+      ]
     }
   ],
   "unpublishedApplicationDetail": {
